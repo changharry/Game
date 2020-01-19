@@ -50,7 +50,7 @@ new Vue({
                 this.playerHP = 100;
             }
             this.log.unshift({
-                isPlayer: false,
+                isPlayer: true,
                 text : 'Player HP increase by 10 '
             });
             var dmgPlayer = this.damage(5, 12);
